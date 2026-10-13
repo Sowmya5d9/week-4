@@ -1,0 +1,35 @@
+===== WEEK 4: PROMPT FAILURES & EDGE CASES =====
+
+--- POOR PROMPT ---
+Tell me about Python.
+
+Problem: Prompt is too broad and does not specify the expected output.
+
+--- IMPROVED PROMPT ---
+
+Explain Python programming to a beginner.
+ 
+Requirements:
+1. Give a simple definition.
+2. Mention 3 important features.
+3. Give one simple example.
+4. Use easy English.
+5. Keep the answer under 100 words.
+
+
+--- EDGE CASE TESTING ---
+
+Edge Case 1: ''
+Issue: Empty prompt
+
+Edge Case 2: 'Explain.'
+Issue: Insufficient information
+
+Edge Case 3: 'Explain Python in -50 words.'
+Issue: Invalid word-count constraint
+
+Edge Case 4: 'Explain Python simply and very technically.'
+Issue: Conflicting instructions
+
+Edge Case 5: '123456789'
+Issue: Insufficient information
